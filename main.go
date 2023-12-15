@@ -67,7 +67,7 @@ programLoop:
 		}
 
 	}
-	fmt.Printf("Your result is %d out of %d", correctAns, len(problems))
+	fmt.Printf("Your result is %d out of %d \n", correctAns, len(problems))
 	fmt.Println("Press enter two exit")
 	<-ansC
 }
